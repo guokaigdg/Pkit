@@ -1,0 +1,50 @@
+{
+  "name": "pkit",
+  "version": "1.0.0",
+  "description": "guokai-Peiqi的脚手架",
+  "main": "index.js",
+  "scripts": {
+    "start": "node scripts/start.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commit": "git add.",
+    "pull": "git pull"
+  },
+  "dependencies": {
+    "antd": "^4.6.3",
+    "axios": "^0.20.0",
+    "react": "^16.13.1",
+    "react-router-dom": "^5.1.2",
+    "mobx": "^5.15.4",
+    "mobx-react": "^6.2.2",
+    "mobx-react-router": "^4.1.0",
+    "moment": "^2.24.0",
+    "nprogress": "^0.2.0",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/plugin-proposal-optional-chaining": "^7.10.4",
+    "@babel/plugin-proposal-decorators": "^7.10.5",
+    "eslint": "^7.8.1",
+    "babel-eslint": "^10.1.0",
+    "babel-plugin-import": "^1.13.0",
+    "eslint-config-react-app": "^5.2.1",
+    "eslint-plugin-flowtype": "^5.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.20.6",
+    "eslint-plugin-react-hooks": "^4.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guokaigdg/Pkit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guokaigdg/Pkit/issues"
+  },
+  "homepage": "https://github.com/guokaigdg/Pkit#readme"
+}
