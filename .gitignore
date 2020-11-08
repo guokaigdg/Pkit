@@ -4,6 +4,11 @@ node_modules
 
 /dist
 
+.pnp.js
+
+# testing
+/coverage
+
 # misc
 .DS_Store
 .env.local

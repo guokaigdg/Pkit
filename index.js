@@ -6,9 +6,5 @@
  * @FilePath: /Pkit/index.js
  */
 
- import App from './src/App';
-ReactDOM.render(
-    <App/>,
-    document.getElementById('root')
-  );
-  
+import App from "./src/App";
+ReactDOM.render(<App />, document.getElementById("root"));
