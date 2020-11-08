@@ -22,3 +22,16 @@
 │   ├── index.html --- 静态页面地址
 
 ```
+
+### 代码
+
+```
+//代码pull
+yarn pull
+
+//代码约定式提交
+yarn commit (包括add 跟 commit )
+
+//生成changelog
+yarn changelog
+```
