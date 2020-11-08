@@ -6,10 +6,10 @@
   "scripts": {
     "start": "node scripts/start.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "commit": "git add . && git-cz",
+    "commit": "yarn changelog && git add . && git-cz",
     "pull": "git pull",
     "push": "git push",
-    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -w -r 0 && git add CHANGELOG.MD"
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && git add CHANGELOG.MD"
   },
   "dependencies": {
     "antd": "^4.6.3",
