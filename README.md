@@ -34,4 +34,7 @@ yarn commit (包括add 跟 commit )
 
 //生成changelog
 yarn changelog
+
+//提交
+yarn push
 ```

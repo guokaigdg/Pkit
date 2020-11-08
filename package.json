@@ -1,6 +1,6 @@
 {
   "name": "pkit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "guokai-Peiqi的脚手架",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "commit": "git add . && git-cz",
     "pull": "git pull",
-    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && git add CHANGELOG.MD"
+    "push": "git push",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -w -r 0 && git add CHANGELOG.MD"
   },
   "dependencies": {
     "antd": "^4.6.3",
@@ -50,6 +51,10 @@
   "bugs": {
     "url": "https://github.com/guokaigdg/Pkit/issues"
   },
-  "config": {},
+  "config": {
+    "commitizen": {
+       "path": "node_modules/cz-conventional-changelog"
+   }
+  },
   "homepage": "https://github.com/guokaigdg/Pkit#readme"
 }
