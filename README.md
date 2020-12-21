@@ -39,3 +39,12 @@ yarn changelog
 yarn push
 
 ```
+### 需要的工具
+
+- commander
+-ora
+- fs-extra 
+- chalk
+- boxen
+- ssh2
+- semver
